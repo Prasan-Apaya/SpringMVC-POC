@@ -1,4 +1,4 @@
-package com.first.test;
+package com.first.test.ports.rest;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

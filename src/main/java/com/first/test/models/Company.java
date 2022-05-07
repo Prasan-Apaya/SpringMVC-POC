@@ -1,5 +1,6 @@
-package com.first.test;
+package com.first.test.models;
 
+import com.first.test.models.Address;
 import org.springframework.stereotype.Component;
 
 @Component

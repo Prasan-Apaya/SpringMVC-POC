@@ -1,4 +1,4 @@
-package com.first.test;
+package com.first.test.models;
 
 import org.springframework.stereotype.Component;
 

@@ -2,16 +2,14 @@ package com.first.test;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 @SpringBootApplication
-public class TestApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TestApplication.class, args);
-		ApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
-		Company company = context.getBean("company", Company.class);
+		SpringApplication.run(Application.class, args);
+		/*ApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
+		Company company = context.getBean("company", Company.class);*/
 		/*address.setNumber(1000);
 		address.setStreet("High Street");*/
 
